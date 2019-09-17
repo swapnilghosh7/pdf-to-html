@@ -1,0 +1,24 @@
+{
+  "name": "pdf-to-html",
+  "version": "1.0.0",
+  "description": "converting pdf to html and vice versa",
+  "main": "index.js",
+  "dependencies": {
+    "pdf2html": "^2.5.0",
+    "pdftohtmljs": "^0.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/swapnilghosh7/pdf-to-html.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/swapnilghosh7/pdf-to-html/issues"
+  },
+  "homepage": "https://github.com/swapnilghosh7/pdf-to-html#readme"
+}
