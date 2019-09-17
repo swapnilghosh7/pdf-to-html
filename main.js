@@ -20,12 +20,12 @@
 // });
 const pdf2html = require('pdf2html')
 const fs = require('fs')
-pdf2html.html('sample.pdf', (err, html) => {
+pdf2html.html('sample.pdf', (err, htmlPages) => {
     if (err) {
         console.error('Conversion error: ' + err)
     } else {
         
-        fs.writeFile('mynewfile1.html', html, function (err) {
+        fs.writeFile('mynewfile1.html', htmlPages, function (err) {
 		  if (err) throw err;
 		  console.log('Saved!');
 		});
